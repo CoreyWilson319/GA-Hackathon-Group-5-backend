@@ -29,6 +29,7 @@ connectDB();
 app.use(cors(), express.json({ extended: false }));
 
 // Routes
+app.use("/user", require("./routes/user"));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
