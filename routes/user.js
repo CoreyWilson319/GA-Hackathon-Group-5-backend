@@ -10,8 +10,6 @@ const User = require("../models/User");
 const mongoose = require("mongoose");
 const axios = require("axios");
 
-// https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=grooming&location=-33.8670522%2C151.1957362&radius=1500&key=AIzaSyBaC2lkIvA6aAQhSwoK0aVJ7XpBkZeM5ls
-
 // POST  '/register'
 // DESC register user
 // Public
